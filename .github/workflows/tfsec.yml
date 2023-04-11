@@ -9,7 +9,7 @@ on:
   push:
     branches: [ "prod" , "staging" , "dev"]
   pull_request:
-    branches: [ "prod" , "staging" , "dev"]
+    branches: [ "prod" ]
   schedule:
     - cron: '22 19 * * 4'
 
